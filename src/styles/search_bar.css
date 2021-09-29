@@ -1,0 +1,31 @@
+.filters {
+  margin: 20px 0;
+}
+
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  height: 50px;
+  padding: 0 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  display: block;
+  height: 50px;
+  border: none;
+}
+
+button.sorted {
+  background: #2196f3;
+}

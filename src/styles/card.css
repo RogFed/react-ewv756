@@ -1,0 +1,60 @@
+.card {
+  flex-basis: 100%;
+  max-width: 300px;
+  box-shadow: 0 0 10px grey;
+  border-radius: 10px;
+  margin: 0 10px 30px;
+  overflow: hidden;
+}
+
+.card__header {
+  background: #2196f3;
+  position: relative;
+  height: 120px;
+}
+
+.card__edit {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.card__header h2 {
+  text-align: center;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.card__header i {
+  color: #fff;
+}
+
+.card__avatar {
+  position: absolute;
+  left: calc(50% - (128px / 2));
+  top: calc(0% + (128px / 2));
+  border-radius: 50%;
+  overflow: hidden;
+  width: 128px;
+  height: 128px;
+  border: 5px solid #fff;
+  box-shadow: 0 0 10px grey;
+}
+
+.card__content {
+  border-radius: 10px;
+  padding: 128px 10px 20px;
+  text-align: center;
+}
+
+.card__content p {
+  color: grey;
+  margin: 10px 0;
+}
+
+.card__content input {
+  display: block;
+  width: 100%;
+  height: 20px;
+  margin-bottom: 10px;
+}
